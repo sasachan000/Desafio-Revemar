@@ -1,0 +1,76 @@
+@model ControledeEstoqueVeiculos.Models.Veiculo
+
+@{
+    ViewData["Title"] = "Cadastrar Veículo";
+}
+
+<h2>Cadastrar Novo Veículo</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="Marca" class="form-label"></label>
+                <input asp-for="Marca" class="form-control" />
+                <span asp-validation-for="Marca" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Modelo" class="form-label"></label>
+                <input asp-for="Modelo" class="form-control" />
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Ano" class="form-label"></label>
+                <input asp-for="Ano" class="form-control" type="number" />
+                <span asp-validation-for="Ano" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Cor" class="form-label"></label>
+                <input asp-for="Cor" class="form-control" />
+                <span asp-validation-for="Cor" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Preco" class="form-label"></label>
+                <input asp-for="Preco" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="Preco" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Tipo" class="form-label"></label>
+                <select asp-for="Tipo" class="form-select">
+                    <option value="">Selecione...</option>
+                    <option value="Sedan">Sedan</option>
+                    <option value="Hatch">Hatch</option>
+                    <option value="SUV">SUV</option>
+                    <option value="Picape">Picape</option>
+                </select>
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Situacao" class="form-label"></label>
+                <select asp-for="Situacao" class="form-select">
+                    <option value="">Selecione...</option>
+                    <option value="Disponível">Disponível</option>
+                    <option value="Reservado">Reservado</option>
+                    <option value="Vendido">Vendido</option>
+                </select>
+                <span asp-validation-for="Situacao" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-success">Salvar</button>
+            <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

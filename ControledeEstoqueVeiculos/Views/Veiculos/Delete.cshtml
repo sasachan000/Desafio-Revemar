@@ -1,0 +1,26 @@
+@model ControledeEstoqueVeiculos.Models.Veiculo
+
+@{
+    ViewData["Title"] = "Excluir Veículo";
+}
+
+<h2 class="text-danger">Remover Veículo do Estoque</h2>
+<h3>Tem certeza de que deseja remover este veículo?</h3>
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-3">Marca / Modelo</dt>
+    <dd class="col-sm-9">@Model.Marca - @Model.Modelo</dd>
+
+    <dt class="col-sm-3">Ano</dt>
+    <dd class="col-sm-9">@Model.Ano</dd>
+
+    <dt class="col-sm-3">Preço</dt>
+    <dd class="col-sm-9">@Model.Preco.ToString("C")</dd>
+</dl>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

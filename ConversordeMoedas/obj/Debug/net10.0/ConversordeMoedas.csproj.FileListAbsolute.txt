@@ -1,0 +1,14 @@
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\bin\Debug\net10.0\ConversordeMoedas.exe
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\bin\Debug\net10.0\ConversordeMoedas.deps.json
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\bin\Debug\net10.0\ConversordeMoedas.runtimeconfig.json
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\bin\Debug\net10.0\ConversordeMoedas.dll
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\bin\Debug\net10.0\ConversordeMoedas.pdb
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\obj\Debug\net10.0\ConversordeMoedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\obj\Debug\net10.0\ConversordeMoedas.AssemblyInfoInputs.cache
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\obj\Debug\net10.0\ConversordeMoedas.AssemblyInfo.cs
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\obj\Debug\net10.0\ConversordeMoedas.csproj.CoreCompileInputs.cache
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\obj\Debug\net10.0\ConversordeMoedas.dll
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\obj\Debug\net10.0\refint\ConversordeMoedas.dll
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\obj\Debug\net10.0\ConversordeMoedas.pdb
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\obj\Debug\net10.0\ConversordeMoedas.genruntimeconfig.cache
+C:\Users\sabri\OneDrive\Desktop\RevemarDesafio\ConversordeMoedas\obj\Debug\net10.0\ref\ConversordeMoedas.dll
