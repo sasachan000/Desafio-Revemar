@@ -1,18 +1,26 @@
-Desafio Técnico - C# / .Net 8+
-Este repositório contém a solução para os dois CRUDs desenvolvidos em C# / .Net 10
+# Sistema de Gestão de Estoque de Veículos
 
-Estrutura do Repositório
-RevemarDesafio/
-|
-|----ControledeEstoqueVeiculos
-|
-|----ConversordeMoedas/
-|
-|----README.md
+Aplicação web desenvolvida em ASP.NET Core MVC para controle e gerenciamento de estoque de veículos de forma simples, eficiente e segura.
 
+# Tecnologias Utilizadas
 
-Tecnologias Utilizadas:
-- Linguagem e Framework: C#/.Net 10.0(ASP.NET.Core MVC)
-- Persistência (Desafio 1 - Controle de Estoque): Framework Core (Code-First) e Oracle Database via Docker
-- Lógica (Desafio 2 - Conversor de Moedas): Tipagem com decimal, formatação de moedas e estruturas adicionais
-- Interface e validações: Razor Views, Bootstrap 5 e DataAnnotions
+- Linguagem: C# (.NET 8)
+- Framework Web:ASP.NET Core MVC
+- ORM: Entity Framework Core
+- Banco de Dados:SQLite
+- Frontend: Razor Views, HTML5, CSS3, Bootstrap 5
+- Ferramentas: EF Core CLI (`dotnet-ef`)
+
+● Funcionalidades
+
+- Cadastro de Veículos:Registro completo com Marca, Modelo, Ano de Fabricação/Modelo, Quilometragem, Preço, Placa, Status e Loja.
+- Listagem Dinâmica: Exibição estruturada do estoque em tabela interativa.
+- Edição & Atualização: Alteração de dados cadastrais e status dos veículos.
+- Exclusão: Remoção de registros do banco de dados.
+
+● Como Executar o Projeto Localmente
+
+1. Clonar o repositório:
+   ```bash
+   git clone [https://github.com/sasachan000/controle-estoque-veiculos.git](https://github.com/sasachan000/controle-estoque-veiculos.git)
+   cd controle-estoque-veiculos
